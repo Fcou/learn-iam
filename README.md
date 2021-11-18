@@ -19,3 +19,8 @@
 ![前后端分离架构](https://static001.geekbang.org/resource/image/a2/76/a2e1f1cc135debd86611yya1f221c476.jpg?wh=2519*1447)
 ---
 ### 02 | 环境准备
+* 配置一个 Go 开发环境，我们可以通过以下 4 步实现：
+    1. Linux 服务器申请和配置
+    2. 依赖安装和配置Go 
+    3. 编译环境安装和配置Go 
+    4. 开发 IDE 安装和配置
