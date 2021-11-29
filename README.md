@@ -1,4 +1,4 @@
-# learn iam
+# learn IAM
 ## IAM系统介绍
 #### IAM系统概述
 * IAM（Identity and Access Management，身份识别与访问管理）系统是用 Go 语言编写的一个 Web 服务，用于给第三方用户提供访问控制服务。
@@ -105,6 +105,16 @@
                 * feat 类型的 commit 可以将次版本号 +1。
                 * 带有 BREAKING CHANGE 的 commit 可以将主版本号 +1。
     4. Commit 规范
+        * 符合 Angular 规范的 Commit Message
+            ```
+            <type>[optional scope]: <description>
+            // 空行
+            [optional body]
+            // 空行
+            [optional footer(s)]
+            ```
+            其中，Header 是必需的，Body 和 Footer 可以省略。在以上规范中，必须用括号 () 括起来， [] 后必须紧跟冒号 ，冒号后必须紧跟空格，2 个空行也是必需的。
+            !(常见 type 和它们所属的类别)[https://static001.geekbang.org/resource/image/89/27/89c618a7415c0c38b09d86d7f882a427.png?wh=726*511]
     5. 发布规范
 * 编码类规范
     1. 目录规范
